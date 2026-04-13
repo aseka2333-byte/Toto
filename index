@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Әзірлеушіге арналған ЖИ-құралдары</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <span class="header-badge">ЖИ × Веб</span>
+      <h1 class="site-title">Әзірлеушіге арналған<br /><em>ЖИ-құралдары</em></h1>
+      <p class="site-subtitle">Жасанды интеллект құралдарының шолуы және тәжірибелік интеграция</p>
+      <div class="header-controls">
+        <button id="themeToggle" class="btn-theme" aria-label="Тақырыпты ауыстыру">
+          <span class="theme-icon">☀</span>
+          <span class="theme-label">Тақырып</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== CARDS SECTION ===== -->
+  <section class="section cards-section">
+    <div class="section-label">01 — Құралдар шолуы</div>
+    <div class="cards-grid">
+
+      <!-- Midjourney -->
+      <article class="card" data-tool="midjourney">
+        <div class="card-accent"></div>
+        <div class="card-inner">
+          <div class="card-header">
+            <span class="card-icon">🎨</span>
+            <span class="card-tag">Сурет генерациясы</span>
+          </div>
+          <h2 class="card-title">Midjourney</h2>
+          <p class="card-desc">
+            Midjourney — мәтіндік нұсқаулар арқылы кәсіби деңгейдегі суреттер жасайтын жасанды интеллект платформасы.
+            Ол суретшілер мен дизайнерлерге шығармашылық идеяларды жылдам визуалдандыруға мүмкіндік береді.
+            Discord арқылы жұмыс жасайды және нақты текстурасы мен композициясымен ерекшеленеді.
+          </p>
+          <ul class="card-features">
+            <li>Мәтіннен сурет жасау (text-to-image)</li>
+            <li>Стильді реттеу және нұсқаларды салыстыру</li>
+            <li>Суреттерді жоғары ажыратымдылыққа ұлғайту (upscale)</li>
+          </ul>
+          <a href="https://www.midjourney.com" target="_blank" rel="noopener" class="card-link">
+            Ресми сайт →
+          </a>
+        </div>
+      </article>
+
+      <!-- Google Gemini -->
+      <article class="card" data-tool="gemini">
+        <div class="card-accent"></div>
+        <div class="card-inner">
+          <div class="card-header">
+            <span class="card-icon">✦</span>
+            <span class="card-tag">Мультимодальды ЖИ</span>
+          </div>
+          <h2 class="card-title">Google Gemini</h2>
+          <p class="card-desc">
+            Google Gemini — мәтін, сурет, аудио және бейнені бір уақытта өңдей алатын Google компаниясының жетілдірілген ЖИ моделі.
+            Ол кодты жазу, талдау және ғылыми есептерді шешуде жоғары нәтижелер көрсетеді.
+            Google Workspace өнімдерімен терең интеграцияланған.
+          </p>
+          <ul class="card-features">
+            <li>Мәтін жазу, аудару және қорыту</li>
+            <li>Кодты жазу, тексеру және түсіндіру</li>
+            <li>Суреттерді талдау және сипаттау</li>
+          </ul>
+          <a href="https://gemini.google.com" target="_blank" rel="noopener" class="card-link">
+            Ресми сайт →
+          </a>
+        </div>
+      </article>
+
+      <!-- Suno AI -->
+      <article class="card" data-tool="suno">
+        <div class="card-accent"></div>
+        <div class="card-inner">
+          <div class="card-header">
+            <span class="card-icon">🎵</span>
+            <span class="card-tag">Музыка генерациясы</span>
+          </div>
+          <h2 class="card-title">Suno AI</h2>
+          <p class="card-desc">
+            Suno AI — мәтіндік нұсқаулар негізінде толыққанды ән жасайтын революциялық платформа.
+            Ол вокал, аспаптар және жанрды автоматты түрде таңдап, бірнеше секундта аяқталған трек жасайды.
+            Музыкалық білімсіз де кәсіби деңгейдегі нәтиже беруімен ерекшеленеді.
+          </p>
+          <ul class="card-features">
+            <li>Мәтіннен ән жасау (text-to-song)</li>
+            <li>Жанр, стиль және темп таңдау</li>
+            <li>Вокалды және инструменталды трек генерациясы</li>
+          </ul>
+          <a href="https://suno.com" target="_blank" rel="noopener" class="card-link">
+            Ресми сайт →
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE SECTION ===== -->
+  <section class="section experience-section">
+    <div class="section-label">02 — Менің тәжірибем</div>
+    <div class="experience-inner">
+      <div class="experience-text">
+        <h2 class="experience-title">Рефлексия: ЖИ-мен жұмыс</h2>
+
+        <div class="exp-block">
+          <h3>Қандай құрал ең көп көмектесті?</h3>
+          <p>
+            Осы жобада маған ең көп көмектескен құрал — <strong>Claude AI</strong>. Карточка мәтіндерін жазу, CSS идеяларын ұсыну және JavaScript логикасын түсіндіру барысында ол өте нақты және орынды жауаптар берді. CSS Grid пен Flexbox айырмашылығын нақты мысалдармен түсіндіруі ерекше пайдалы болды.
+          </p>
+        </div>
+
+        <div class="exp-block">
+          <h3>ЖИ нені дұрыс / ыңғайсыз жасады?</h3>
+          <p>
+            ЖИ мәтін жазуды өте жақсы орындады — карточкалардың сипаттамалары дәл және жатық шықты. Алайда кейде тым ұзын немесе қайталанатын жауаптар беріп жатты. Мен бұны нақтырақ сұрақ қою арқылы шештім: «3 сөйлемнен аспасын» деген шектеу қойдым. Сонымен қатар ЖИ CSS-тің кейбір жаңа мүмкіндіктерін ескірген синтаксиспен жазды — DevTools арқылы өзім тексеріп түзеттім.
+          </p>
+        </div>
+
+        <div class="exp-block">
+          <h3>ЖИ 5 жылдан кейін әзірлеушіні қалай өзгертеді?</h3>
+          <p>
+            Менің ойымша, 5 жылдан кейін ЖИ-дің рутиналық кодты жазу жылдамдығы одан да артады, бірақ әзірлеуші мамандығы жойылмайды — ол трансформацияланады. Программист «код жазушыдан» «жүйе архитекторына» айналады: ЖИ генерациялаған кодты бағалай, тексере және бағыттай алатын адам. Архитектуралық шешімдер, критикалық ойлау және домен білімі — бұлар адамдық артықшылық болып қала береді.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CHAT SECTION ===== -->
+  <section class="section chat-section">
+    <div class="section-label">03 — ЖИ-чат</div>
+    <div class="chat-container">
+      <div class="chat-header">
+        <span class="chat-status-dot"></span>
+        <span class="chat-title">Claude AI — Тікелей чат</span>
+        <span class="chat-counter">Сұраныстар: <strong id="requestCount">0</strong></span>
+      </div>
+
+      <div class="chat-messages" id="chatMessages">
+        <div class="message message-ai">
+          <div class="message-bubble">
+            Сәлем! Мен Claude AI-мын. Сізге қандай сұрақтарыңыз бар? ЖИ-құралдары туралы немесе веб-әзірлеу жайлы сұраңыз.
+          </div>
+        </div>
+      </div>
+
+      <div class="chat-input-area">
+        <textarea
+          id="userInput"
+          class="chat-input"
+          placeholder="Сұрағыңызды жазыңыз..."
+          rows="2"
+        ></textarea>
+        <button id="sendBtn" class="btn-send">
+          <span class="send-text">Жіберу</span>
+          <span class="send-icon">↑</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <p>Практикалық жұмыс №1 · ЖИ веб-әзірлеуде · 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
